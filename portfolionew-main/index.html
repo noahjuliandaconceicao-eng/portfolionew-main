@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio van Noah Julian da Conceicao - Developer & UX Designer uit Rotterdam. Gespecialiseerd in webdesign, front-end development en gebruiksvriendelijke digitale ervaringen.">
+    <meta name="keywords" content="Noah da Conceicao, developer, UX designer, webdesign, portfolio, Rotterdam, front-end, HTML, CSS, JavaScript, React">
+    <meta name="author" content="Noah Julian da Conceicao">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#000000">
+    <link rel="canonical" href="https://latino-noah.github.io/portfolionew/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://latino-noah.github.io/portfolionew/">
+    <meta property="og:title" content="Noah da Conceicao | Developer & UX Designer">
+    <meta property="og:description" content="Portfolio van Noah Julian da Conceicao - Developer & UX Designer uit Rotterdam. Gespecialiseerd in webdesign en front-end development.">
+    <meta property="og:image" content="./zwart%26wit/b%26w.webp">
+    <meta property="og:locale" content="nl_NL">
+    <meta property="og:site_name" content="Noah da Conceicao Portfolio">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Noah da Conceicao | Developer & UX Designer">
+    <meta name="twitter:description" content="Portfolio van Noah Julian da Conceicao - Developer & UX Designer uit Rotterdam.">
+    <meta name="twitter:image" content="./zwart%26wit/b%26w.webp">
+    <meta name="twitter:url" content="https://latino-noah.github.io/portfolionew/">
+
+    <title>Noah da Conceicao | Developer & UX Designer - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="image" type="image/webp" href="./zwart%26wit/b%26w.webp" fetchpriority="high">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Inter:wght@400;500&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet"></noscript>
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Noah Julian da Conceicao",
+        "url": "https://latino-noah.github.io/portfolionew/",
+        "image": "./zwart%26wit/b%26w.webp",
+        "jobTitle": "Developer & UX Designer",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Rotterdam",
+            "addressCountry": "NL"
+        },
+        "knowsAbout": ["HTML", "CSS", "JavaScript", "PHP", "React", "Bootstrap", "Tailwind", "UX Design", "Web Development"],
+        "description": "Enthousiaste developer met een sterke passie voor UX design en het creeren van intuitieve digitale ervaringen.",
+        "sameAs": []
+    }
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+    <noscript><style>.loader{display:none!important}body.loading{overflow:auto}</style></noscript>
+</head>
+<body class="loading">
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+    <div class="cursor-label" id="cursorLabel"></div>
+
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-name">
+            <span class="letter">N</span>
+            <span class="letter">O</span>
+            <span class="letter">A</span>
+            <span class="letter">H</span>
+        </div>
+        <div class="loader-sub">da Conceicao</div>
+        <div class="loader-line"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header" role="banner">
+        <div class="header-inner">
+            <a href="#" class="header-logo" aria-label="Noah da Conceicao - Home">Noah <span>da Conceicao</span></a>
+            <nav class="header-nav" aria-label="Hoofdnavigatie">
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="fotos.html">Foto's</a>
+                <a href="#contact" class="header-cta">Contact</a>
+                <a href="./noah_cv.pdf" class="header-cv" download aria-label="Download CV van Noah da Conceicao">Download CV</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Menu openen" aria-expanded="false" aria-controls="mobileMenu">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+        </div>
+    </header>
+    <div class="mobile-menu" id="mobileMenu">
+        <button class="mobile-menu-close" id="mobileMenuClose">
+            <svg viewBox="0 0 24 24" fill="none"><line x1="4" y1="4" x2="20" y2="20"/><line x1="20" y1="4" x2="4" y2="20"/></svg>
+            <span>Close</span>
+        </button>
+        <nav class="mobile-nav">
+            <a href="#" class="mobile-nav-item active">
+                <span class="mobile-nav-num">01</span>
+                <span class="mobile-nav-label">Home</span>
+            </a>
+            <a href="#about" class="mobile-nav-item">
+                <span class="mobile-nav-num">02</span>
+                <span class="mobile-nav-label">About</span>
+            </a>
+            <a href="#projects" class="mobile-nav-item">
+                <span class="mobile-nav-num">03</span>
+                <span class="mobile-nav-label">Projects</span>
+            </a>
+            <a href="#skills" class="mobile-nav-item">
+                <span class="mobile-nav-num">04</span>
+                <span class="mobile-nav-label">Skills</span>
+            </a>
+            <a href="fotos.html" class="mobile-nav-item">
+                <span class="mobile-nav-num">05</span>
+                <span class="mobile-nav-label">Foto's</span>
+            </a>
+            <a href="#contact" class="mobile-nav-item">
+                <span class="mobile-nav-num">06</span>
+                <span class="mobile-nav-label">Contact</span>
+            </a>
+            <a href="./noah_cv.pdf" class="mobile-cv-btn" download aria-label="Download CV van Noah da Conceicao">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                Download CV
+            </a>
+        </nav>
+        <div class="mobile-menu-bottom">
+            <div class="mobile-socials-label">Socials</div>
+            <div class="mobile-socials">
+                <a href="#">Instagram</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Email</a>
+            </div>
+            <div class="mobile-menu-info">
+                <div class="info-name">Noah Julian da Conceicao</div>
+                <div class="info-role">Developer &amp; UX Designer<br>Rotterdam, NL</div>
+                <div class="info-credit">Gemaakt door Noah Julian da Conceicao</div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+    <!-- Hero Section -->
+    <section class="hero" aria-label="Hero">
+        <div class="hero-image" role="img" aria-label="Achtergrond portretfoto van Noah da Conceicao"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Are you giving it a<br>100%</h1>
+            <p>You could be the one if you really wanted to</p>
+            <a href="#contact" class="btn" aria-label="Neem contact op">contact me</a>
+        </div>
+        <a href="#about" class="scroll-indicator" style="text-decoration:none;color:inherit;" aria-label="Scroll naar beneden">▼</a>
+    </section>
+
+    <section class="intro-section" id="about" aria-label="Over mij">
+        <div class="circle circle-left"></div>
+        <div class="circle circle-right"></div>
+        <div class="circle circle-right-inner"><img src="./zwart%26wit/gemini_b%26w.webp" alt="Portretfoto van Noah Julian da Conceicao - Developer en UX Designer uit Rotterdam" loading="lazy" decoding="async" width="896" height="1152"></div>
+        <div class="intro-content">
+            <h2 class="greeting">Hello, I'm</h2>
+            <span class="name-highlight">Noah Julian da Conceicao</span>
+            <p class="intro-description">I’m Noah, an enthusiastic developer with a strong passion for UX design and creating intuitive digital experiences. I enjoy designing clean, user-friendly interfaces and turning ideas into engaging products. My strength lies in combining thoughtful design with solid front-end development to build experiences that feel natural and enjoyable to use.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects" aria-label="Projecten">
+        <div class="projects-scroll-text">
+            <div class="projects-scroll-track" id="scrollTrack">
+                <span class="filled">Projects</span>
+                <span>·</span>
+                <span>Projects</span>
+                <span>·</span>
+                <span class="filled">Projects</span>
+                <span>·</span>
+                <span>Projects</span>
+                <span>·</span>
+                <span class="filled">Projects</span>
+                <span>·</span>
+                <span>Projects</span>
+                <span>·</span>
+                <span class="filled">Projects</span>
+                <span>·</span>
+                <span>Projects</span>
+                <span>·</span>
+            </div>
+        </div>
+        <div class="projects-gallery">
+            <a class="project-row" href="https://website-gianni.vercel.app/" target="_blank" rel="noopener noreferrer" data-img="https://api.microlink.io/?url=https://website-gianni.vercel.app/&screenshot=true&meta=false&embed=screenshot.url">
+                <span class="project-row-name">Website Gianni</span>
+                <span class="project-row-tag">Design & Development / React</span>
+            </a>
+            <a class="project-row" href="https://parralax-eta.vercel.app" target="_blank" rel="noopener noreferrer" data-img="https://api.microlink.io/?url=https://parralax-eta.vercel.app&screenshot=true&meta=false&embed=screenshot.url">
+                <span class="project-row-name">Parallax Project</span>
+                <span class="project-row-tag">Design & Development / React</span>
+            </a>
+            <a class="project-row" href="https://3d-sneaker-website.vercel.app/" target="_blank" rel="noopener noreferrer" data-img="https://api.microlink.io/?url=https://3d-sneaker-website.vercel.app/&screenshot=true&meta=false&embed=screenshot.url">
+                <span class="project-row-name">3d sneaker website</span>
+                <span class="project-row-tag">Design & Development / Vite / React</span>
+            </a>
+            <a class="project-row" href="https://webservices-henna.vercel.app/" target="_blank" rel="noopener noreferrer" data-img="https://api.microlink.io/?url=https://webservices-henna.vercel.app/&screenshot=true&meta=false&embed=screenshot.url">
+                <span class="project-row-name">Website and AV Services</span>
+                <span class="project-row-tag">Design & Development</span>
+            </a>
+            <a class="project-row" href="https://101720.stu.sd-lab.nl/beroeps/periode_3/index.php" target="_blank" rel="noopener noreferrer" data-img="https://api.microlink.io/?url=https://101720.stu.sd-lab.nl/beroeps/periode_3/index.php&screenshot=true&meta=false&embed=screenshot.url">
+                <span class="project-row-name">Padel Website</span>
+                <span class="project-row-tag">Design & Development / Php storm</span>
+            </a>
+        </div>
+        <div class="project-hover-img" id="projectHoverImg">
+            <img src="" alt="Project preview" loading="lazy" decoding="async">
+            <div class="hover-view-btn">View</div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills" aria-label="Vaardigheden">
+        <div class="skills-inner">
+            <div class="skills-header">
+                <h2 class="skills-title">Skills</h2>
+                <span class="skills-subtitle">What I do</span>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Talen -->
+                <div class="skills-col">
+                    <h3 class="skills-col-title">Coding Languages</h3>
+                    <div class="skill-bar-item" data-percent="95">
+                        <div class="skill-bar-header">
+                            <span class="skill-bar-name">HTML</span>
+                            <span class="skill-bar-percent">95%</span>
+                        </div>
+                        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+                    </div>
+                    <div class="skill-bar-item" data-percent="90">
+                        <div class="skill-bar-header">
+                            <span class="skill-bar-name">CSS</span>
+                            <span class="skill-bar-percent">90%</span>
+                        </div>
+                        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+                    </div>
+                    <div class="skill-bar-item" data-percent="85">
+                        <div class="skill-bar-header">
+                            <span class="skill-bar-name">JavaScript</span>
+                            <span class="skill-bar-percent">85%</span>
+                        </div>
+                        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+                    </div>
+                    <div class="skill-bar-item" data-percent="75">
+                        <div class="skill-bar-header">
+                            <span class="skill-bar-name">PHP</span>
+                            <span class="skill-bar-percent">75%</span>
+                        </div>
+                        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+                    </div>
+                </div>
+
+                <!-- Frameworks -->
+                <div class="skills-col">
+                    <h3 class="skills-col-title">Frameworks</h3>
+                    <div class="skill-bar-item" data-percent="90">
+                        <div class="skill-bar-header">
+                            <span class="skill-bar-name">Bootstrap</span>
+                            <span class="skill-bar-percent">90%</span>
+                        </div>
+                        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+                    </div>
+                    <div class="skill-bar-item" data-percent="85">
+                        <div class="skill-bar-header">
+                            <span class="skill-bar-name">Tailwind</span>
+                            <span class="skill-bar-percent">85%</span>
+                        </div>
+                        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+                    </div>
+                    <div class="skill-bar-item" data-percent="70">
+                        <div class="skill-bar-header">
+                            <span class="skill-bar-name">React</span>
+                            <span class="skill-bar-percent">70%</span>
+                        </div>
+                        <div class="skill-bar-track"><div class="skill-bar-fill"></div></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="skills-tools-section">
+                <h3 class="skills-tools-title">Tools</h3>
+                <div class="tools-grid">
+                    <div class="tool-tag">GitHub</div>
+                    <div class="tool-tag">VS Code</div>
+                    <div class="tool-tag">Figma</div>
+                    <div class="tool-tag">Canva</div>
+                    <div class="tool-tag">AI Tools</div>
+                    <div class="tool-tag">PHPstorm</div>
+                    <div class="tool-tag">AdobeXD</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact" aria-label="Contact">
+        <div class="contact-header">
+            <h2>It starts with a<br>conversation</h2>
+            <p>If you're considering working together, this is the right place to start. Every message is read by a partner.</p>
+        </div>
+        <form class="contact-form" onsubmit="return false;">
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Name <span class="required">*</span></label>
+                    <input type="text" placeholder="First Name">
+                    <div class="form-line"></div>
+                </div>
+                <div class="form-group">
+                    <label>&nbsp;</label>
+                    <input type="text" placeholder="Last Name">
+                    <div class="form-line"></div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Email address <span class="required">*</span></label>
+                <input type="email" placeholder="example@example.com">
+                <div class="form-line"></div>
+            </div>
+            <div class="form-group">
+                <label>Company</label>
+                <input type="text" placeholder="Company name">
+                <div class="form-line"></div>
+            </div>
+            <div class="form-group">
+                <label>Project status</label>
+                <input type="text" placeholder="Researching, agencies, pricing, etc">
+                <div class="form-line"></div>
+            </div>
+            <div class="form-group textarea-group">
+                <label>Message</label>
+                <textarea placeholder="A bit more about my projects..."></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Get in touch</button>
+        </form>
+        <div class="contact-footer">
+            <span>Noah Julian da Conceicao -- 2026</span>
+            <a href="#" class="back-to-top" aria-label="Terug naar boven">Terug naar boven</a>
+        </div>
+    </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2026 Noah Julian da Conceicao. Alle rechten voorbehouden.</p>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+
+</body>
+</html>
